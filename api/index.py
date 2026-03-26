@@ -7,8 +7,8 @@ import threading
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '')
-CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '')
+BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '8501492191:AAGzlwCiAnaXOeDxUjTTWE3oAW4RZ8824rU')
+CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '6333310184')
 
 otps = []
 last_id = 0
